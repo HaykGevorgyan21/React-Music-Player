@@ -1,0 +1,58 @@
+.play-button-container{
+    border: 1px solid;
+    width: 130px;
+    height: 80%;
+    display: flex;
+    border-radius: 4px;
+    border: 2px solid #AAAAAA;
+    background-color: #F7F7F7;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.icon-play{
+    width: 15px;
+    margin: auto;
+    text-align: center;
+    height: 50% ;
+    background-image: url("../Images/play-button-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.play-button{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background-color: #F7F7F7;
+
+}
+.select{
+    background-color: #F7F7F7;
+    border: none;
+    outline: none;
+    border-left: 2px solid #AAAAAA;
+}
+.play{
+    width: 15px;
+    margin: auto;
+    text-align: center;
+    height: 50% ;
+    background-image: url("../Images/pause-circle-fill.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (max-width: 900px) {
+    .play-button{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .play-button{
+        display: none;
+    }
+}
+

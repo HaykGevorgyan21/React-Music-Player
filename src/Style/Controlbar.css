@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.controlbar{
+    max-width: 75%;
+    height: 6vh;
+    background-color: #FAFAFA;
+    border: 1px solid #AAAAAA;
+    border-radius: 8px;
+    margin: auto;
+    /*align-items: center;*/
+    /*text-align: center;*/
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.one{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    margin-left: 10px;
+}
+.two{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: end;
+    margin-right: 10px;
+
+}
+
+@media screen and (max-width: 690px){
+    .controlbar{
+        justify-content: center;
+        margin: auto;
+
+
+    }
+
+}

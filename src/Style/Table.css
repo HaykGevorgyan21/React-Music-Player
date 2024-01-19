@@ -1,0 +1,106 @@
+.table{
+    width: 75%;
+    margin: auto;
+
+}
+
+.like{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././Images/heart-black-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    margin-left: 2px;
+
+}
+
+.completed{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././Images/icons8-complete.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    margin-left: 2px;
+
+}
+
+.share{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././Images/returning-right-arrow-svgrepo-com.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    margin-left: 2px;
+
+}
+
+.selects{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././Images/down-2-svgrepo-com.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-left: 2px;
+
+}
+
+.play-but{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././Images/play-button-svgrepo-com.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-left: 10px;
+
+}
+
+.played{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././Images/pause-circle-fill.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-left: 10px;
+}
+.liked{
+    width: 20px;
+    height: 20px;
+    background-image: url(".././Images/red-heart-svgrepo-com.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    margin-left: 2px;
+
+}
+
+audio{
+    width: 100%;
+    coror: blue;
+}
+
+
+.play-container{
+    display: flex;
+    width: 100%;
+}
+
+.icon{
+    font-size: 14px;
+    font-weight: bold;
+}
