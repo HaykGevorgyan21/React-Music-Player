@@ -1,3 +1,3 @@
 ﻿# React-Music-Player
-# start- pm start
+# start- npm start
 # api by Nest.js and mongo db
